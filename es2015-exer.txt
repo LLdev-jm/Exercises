@@ -1,0 +1,12 @@
+1. Var and let scoping rules are different. var : function scope let: block scope
+	var can reassign, redeclare and mutate. Var is hoisted to the top of their parent element. Can be 	accessed even before they are declared.
+	let can reassign and mutate but CANNOT redeclare
+
+2. var: function scope const : block scope. 
+	var can reassign redeclare and mutate.Var is hoisted to the top of their parent element. Can be 	accessed even before they are declared.
+	const can reassign and mutate but cannot be redeclared. 
+
+3. let: can reassign and mutate but cannot redeclare
+    const: cannot reassign or redeclare
+
+4. Variables declared with var are hoisted to the top of their parent element which allows the variable to be 	accessed before they are declared.
