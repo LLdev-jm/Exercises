@@ -1,0 +1,40 @@
+PART 1
+
+1. HTTP stands for Hypertext Transfer Protocol and this is how browsers and servers communicate
+
+2. URL stands for Uniform Resource Locator and this is an address to a resource on the internet
+	ex) www.google.com
+
+3. DNS stands for Domain Name System and this translates urls like www.google.com to a unique IP address.
+
+4. Query string is part of the URL and this provides additional information and can be multiple parameters. 
+
+5. The two HTTP verbs are GET and POST . GET is 'asking (retrieve)' data without changing server data . No side effects.	POST is when there is intent to have a side effects or to modify data in the server. ex) sending mail, posting a post, charging credit card , etc
+
+6. HTTP request is a request from a user to a server that follows the http protocol. Asking the server at www.google.com to provide content of the HTMl. 
+
+7. HTTP headers provide additional information about the request or response. 
+	Request headers: User-Agent , Accept, Authorization, Cookie, Cache-Control
+	Response header: HTTP Status, Content-Type, Last-Modified, Set-Cookie, Cache-Control
+
+8. When you type a URL into a browser there are several things that happen
+	-Browser takes the url address to a machine readable IP Address. This is done by DNS
+	-The browser will then request to that IP address including all info about the browser as 		well as any previous cookies, etc
+	- The server then responds with the exact HTML text for that page as well as a status code
+	- The browser receives the response and starts rendering the page and processes HTML, css, 		javascript 
+	- The browser requests additional resources such as images and other stylesheets and scripts 		referenced in the HTML.
+
+
+PART TWO
+
+1. curl "https://icanhazdadjoke.com/search?term=pirate" -H "Accept: application/json"
+	TOTAL 5 JOKES
+
+2. 	172.67.198.173
+	104.21.66.15
+
+3. http://localhost:8000/
+
+
+
+	
