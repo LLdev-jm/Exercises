@@ -1,0 +1,36 @@
+Step One
+1. O(n)
+2. O(n)
+3. O(1)
+4. O(n^3) because n^3 is worse than n^2
+5. O(n)
+6. O(n) - regardless you still time n times
+7. O(n log(n))
+8. O(2^n)
+9. O(1)
+10. O(n^2)
+
+Step Two
+1. O(n) = looping n times
+2. O(n) = looping n times
+3. O(1) = only loops 10 times regardless of n
+4. O(n) = loops over all indexes to return even index values
+5. O(n^2) = for every loop of i there is an additional loop of j
+6. O(n) = loop over every element in string to find vowels
+
+Step Three
+1. T
+2. T
+3. F
+4. O(n) = must loop over everything to find index that is being searched. Worst case
+5. O(n) = same as above for includes
+6. O(n) = single loop
+7. O(n log(n)) = Sorting
+8. O(n) = loops over the array to add new values to front of array
+9. O(1) - fixed value
+10. O(n) = loops over array, identifies target input to add desired value in between
+11. O(1) - fixed value
+12. O(n) = loops over object to return an array of keys
+
+Bonus
+O(n) = object.keys takes an object with n number of keys and return the key values which is n
